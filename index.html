@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bem-Vindo a ShoeStore</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <header id="topicos">
+    <span class="li">
+      <h1>SHOE STORE</h1>
+    </span>
+    <span class="li"><a href="index.html">inicio</a></span>
+    <span class="li"><a href="login.html">login</a></span>
+ 
+    <span class="li"><a href="carrinho.html">carrinho</a></span>
+    <span class="li"><a href="contato.html">Contato</a></span>
+    <span class="li"><a href="sobre.html">Sobre</a></span>
+    <span class="li"><a href="produtos.html">Produtos</a></span>
+    <!DOCTYPE html>
+
+    <style>
+        body {
+            transition: background-color 0.5s;
+            text-align: center;
+            padding: 100px;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .black {
+            background-color: black;
+            color: white;
+        }
+
+        .white {
+            background-color: white;
+            color: black;
+        }
+
+        button {
+            padding: 10px 10px;
+            font-size: 10px;
+            border: none;
+            background-color:#52258a;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+<body class="white">
+
+
+<button id="toggleButton">mudar tema</button>
+
+<script>
+    const body = document.body;
+    const toggleButton = document.getElementById('toggleButton');
+
+    toggleButton.addEventListener('click', () => {
+        if (body.classList.contains('white')) {
+            body.classList.remove('white');
+            body.classList.add('black');
+        } else {
+            body.classList.remove('black');
+            body.classList.add('white');
+        }
+    });
+</script>
+
+</body>
+</html>
+
+    </ul>
+    </nav>
+  </header>
+  <main>
+    </div>
+    <div id="cima">
+      <h2>Nossos melhores Sapatos!</h2>
+    </div>
+    
+    <span class="produto">
+      <img
+        src="data:image/jpeg;base64,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"
+        alt="Sapatos Goofy">
+      <h3>allstars velho</h3>
+      <p>Preço: R$9.530</p>
+      <a class="car" href="carrinho.html"><button>Adicione ao carrinho</button></a>
+    </span>
+    <span class="produto">
+      <img src="https://imgnike-a.akamaihd.net/768x768/0246077T.jpg" alt="Airforce">
+      <h3>Nike Airforce</h3>
+      <p>Preço: $200</p>
+      <a class="car" href="carrinho.html"><button>Adicione ao carrinho</button></a>
+    </span>
+    <span class="produto">
+      <img src="https://cdn.shopify.com/s/files/1/1176/5302/products/goofy_01_1000x.png?v=1631113674" height="200"
+        width="200" alt="Bobinhos V2">
+      <h3 id="cao">Sapatos <br> Engraçadinhos</h3>
+      <p>Preço: $300</p>
+      <a class="car" href="carrinho.html"><button>Adicione ao carrinho</button></a>
+    </span>
+    </div>
+
+</body>
+<p>ShoeStore,Seu sonho calçado em seus pés</p>
+<footer>
+  <p>&copy; 2023 Meu site de e-comercio todos os direitos reservados</p>
+</footer>
+<a href target="_blankhttps://instagram.com/shoestore.vendas?igshid=ZDdkNTZiNTM=> Siga-nos e veja-nos no Instagram">
+
+</html>
