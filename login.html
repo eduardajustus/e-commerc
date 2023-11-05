@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+   
+    <header id="topicos">
+        <span class="li">
+            <h1>SHOE STORE</h1>
+        </span>
+        <span class="li"><a href="index.html" class="block">inicio</a></span>
+        <span class="li"><a href="login.html" class="block">login</a></span>
+        <span class="li"><a href="carrinho.html" class="block">carrinho</a></span>
+        <span class="li"><a href="contato.html" class="block">Contato</a></span>
+        <span class="li"><a href="sobre.html" class="block">Sobre</a></span>
+        <span class="li"><a href="produtos.html" class="block">Produtos</a></span>
+        </ul>
+        </nav>
+        
+    </header>
+    
+    <div class="container">
+        <h1>Autenticação de Usuário</h1>
+        <div id="loginSection">
+            <h2>Entrar</h2>
+            <form id="loginForm">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Entrar</button>
+            </form>
+            <p id="loginMessage"></p>
+            <p id="showRegister">Cadastrar uma nova conta</p>
+        </div>
+        <div id="registerSection" style="display: none;">
+            <h2>Cadastrar</h2>
+            <form id="registerForm">
+                <label for="newUsername">Novo Usuário:</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+                <label for="newPassword">Nova Senha:</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+            <p id="registerMessage"></p>
+            <p id="showLogin">Já possui uma conta? Faça login</p>
+        </div>
+    </div>
+    <script src="login.js"></script>
+    <footer>
+        <p>ShoeStore,Seu sonho calçado em seus pés</p>
+
+        <p>&copy; 2023 Meu site de e-comercio todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
