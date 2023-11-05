@@ -1,0 +1,111 @@
+@import url('https://fonts.cdnfonts.com/css/ozda');
+@import url('https://fonts.cdnfonts.com/css/dotboundary-fixed');
+body {
+    padding-top: 120px;
+    background-color:#F2E3DB;
+}
+#topicos {
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color:#8F43EE;
+    border-bottom: 5px solid #52258a ;
+    position: fixed;
+    padding-top: 20px ;
+}
+.block{
+    text-decoration: none;
+    padding-left: 90px;
+   
+    line-height: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Ozda', sans-serif;
+}
+#log{
+    text-align: center;
+    margin-top: 180px;
+   font-family: 'DotBoundary-Fixed', sans-serif;
+}
+footer{
+   position: fixed;
+   bottom: 0;
+   left: 0;
+}
+h3{
+    text-transform: uppercase;
+}
+#but{
+    border-radius:10px ;
+    border: 2px solid black;
+    font-family: 'DotBoundary-Fixed', sans-serif;
+}
+
+h1{    font-family: 'Ozda', sans-serif;}
+#voltar{
+    text-decoration: none;
+  color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#loginMessage, #registerMessage {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#showRegister, #showLogin {
+    color: #007bff;
+    cursor: pointer;
+}
