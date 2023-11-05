@@ -1,0 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/ozda');
+@import url('https://fonts.cdnfonts.com/css/toyota-mr2');
+@import url('https://fonts.cdnfonts.com/css/cloud-2');
+body {
+    padding-top: 120px;
+    background-color:#F2E3DB;
+}
+#topicos {
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color:#8F43EE;
+    border-bottom: 5px solid #52258a ;
+    position: fixed;
+    padding-top: 20px ;
+}
+a{
+    text-decoration: none;
+    padding-left: 90px;
+
+    line-height: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Ozda', sans-serif;
+}
+h1{    font-family: 'Ozda', sans-serif;
+
+}
+h2{
+    font-family: 'Toyota MR2', sans-serif;
+}
+p{
+    font-family: 'Cloud', sans-serif;
+                                                
+}
