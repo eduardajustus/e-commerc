@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <link rel="stylesheet" href="sobre.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sobre</title>
+</head>
+<body>
+
+    <header id="topicos">
+        <span class="li">
+            <h1>SHOE STORE</h1>
+        </span>
+        <span class="li"><a href="index.html">inicio</a></span>
+        <span class="li"><a href="login.html">login</a></span>
+        <span class="li"><a href="carrinho.html">carrinho</a></span>
+        <span class="li"><a href="contato.html">Contato</a></span>
+        <span class="li"><a href="sobre.html">Sobre</a></span>
+         <span class="li"><a href="produtos.html">Produtos</a></span>
+        </ul>
+        </nav>
+        <style>
+            body {
+                transition: background-color 0.5s;
+                text-align: center;
+                padding: 100px;
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+      
+            .black {
+                background-color: black;
+                color: white;
+            }
+      
+            .white {
+                background-color: white;
+                color: black;
+            }
+      
+            button {
+                padding: 10px 10px;
+                font-size: 10px;
+                border: none;
+                background-color:#52258a;
+                color: white;
+                cursor: pointer;
+            }
+      
+            button:hover {
+                background-color: #555;
+            }
+        </style>
+      <body class="white">
+      
+      
+      <button id="toggleButton">mudar tema</button>
+      
+      <script>
+        const body = document.body;
+        const toggleButton = document.getElementById('toggleButton');
+      
+        toggleButton.addEventListener('click', () => {
+            if (body.classList.contains('white')) {
+                body.classList.remove('white');
+                body.classList.add('black');
+            } else {
+                body.classList.remove('black');
+                body.classList.add('white');
+            }
+        });
+      </script>
+    </header>
+    <link rel="stylesheet" href="sobre.css">
+    <h2>ShoeStore,uma empresa criada em 10 de março de 2023,mas com ambição de gigante</h2>
+    <p>Sediada em Ponta Grossa,Paraná,a ShoeStore veio para revolucionar o mercado</p>
+    <p>Prezando pelo cliente e conforto dele,há todos os tipos de calçados no nosso eCommerce,mas se quiser,será bem atendido na Rua Coronel Bitencourt,182 pelos nossos atendentes</p>
+    <p>Aqui,na ShoeStore,o seu sonho estará calçado em seus pés</p>
+</body>
+    <footer>
+<p>&copy; 2023 Meu site de e-comercio todos os direitos reservados</p>
+    </footer>
+</html>
